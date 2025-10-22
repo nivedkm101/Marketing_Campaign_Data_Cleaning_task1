@@ -54,3 +54,9 @@ df['marital_status'] = df['marital_status'].replace(status_to_replace, 'Other')
 current_year = 2014
 df['age'] = current_year - df['year_birth']
 df.drop(columns=['year_birth'], inplace=True)
+
+## 👤 Author
+**Nived K M**  
+📧 Email: nivedkm101@gmail.com  
+🔗 GitHub: [github.com/nivedkm101](https://github.com/nivedkm101)  
+💼 LinkedIn: [linkedin.com/in/nivedkm101](https://linkedin.com/in/nivedkm101)
